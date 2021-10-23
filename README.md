@@ -1,11 +1,13 @@
 # Introduction
-This was a simple portfolio site that I made while learning ReactJS. Though the code is quite sloppy, yet it provides good building blocks and components architecture to create your own portfolio site with ReactJS
+This was a simple portfolio site that I made while learning ReactJS. Though the code is quite sloppy, yet it provides good building blocks and components architecture to create your own portfolio site with ReactJS. The app has a ready made functionality for firebase hosting just replace the fire.js file with your configuration and you are good to go
 
 <br/>
 
 <h3>Tech Stack Used</h3>
 
-[React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Firebase](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
 # Getting Started with Create React App
 
