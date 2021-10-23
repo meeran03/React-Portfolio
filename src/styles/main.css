@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: local('Montserrat'), url(../assets/fonts/Montserrat-Regular.ttf) format('truetype');
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Montserrat;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+#backText {
+    font-size: 80px;
+    color: rgba(128, 128, 128, 0.664);
+    position: fixed;
+    z-index: -90;
+    top: 20%;
+    opacity: 0.1;
+    
+}
+#frontText {
+    font-size: 40px;
+    color: black;
+    position: relative;
+    z-index: 1;
+    margin-top: 15%;
+    left: 10%
+}
+#frontBtn {
+    font-size: 20px;
+    color: white;
+    position: relative;
+    z-index: 1;
+    top: 55%;
+    border: none;
+    padding: 8px;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-top: 10px;
+}
+#frontBtn:hover {
+    background-color: grey;
+    color: black
+}
+.about {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
+    font-family: Montserrat;
+}
+.about-container {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-container p{
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+
+}
+.about-img {
+    width: 100%;
+    align-self: flex-end;
+    height: 70%;
+    right: 0;
+}
+
+.heading {
+    font-weight: bold;
+    text-align:center;
+    font-size:60px
+}
+.projects-container {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 15px;
+    justify-content: center;
+    grid-template-rows: 52% 52%;
+}
+.project-item {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    border: 0.3px solid grey;
+    margin: 0 50px;
+    background-color: grey;
+}
+.project-item h4,h3{
+    margin: 10px;
+    color: white;
+}
+.contact {
+    margin-top: 10%;
+}
+.contact p{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.contact span {
+    font-size: 100px;
+}
+form label {
+    font-size: 28px;
+    margin: 20px 0px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form input {
+    outline: none;
+    border: none;
+    padding: 10px 8px;
+    text-align: center;
+    background-color: rgb(185, 184, 184);
+    color : rgb(109, 49, 221);
+    width: 40%
+}
+form textarea {
+    outline: none;
+    border: none;
+    padding: 10px 8px;
+    text-align: justify;
+    background-color: rgb(185, 184, 184);
+    color : rgb(109, 49, 221);
+    width: 40%
+}
+#footer {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.698);
+    color: "white"
+}
+#footer h2,h1 {
+    color:"white"
+}
+.btn {
+    color: black;
+    background-color: white;
+    padding: 10px 30px;
+    outline:none;
+    border:none;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 30px;
+    transition: 0.8s;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.btn:hover {
+    color: grey;
+    background-color: black;
+}
+#skill-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10%;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.753);
+    padding: 20px;
+    color : white;
+}
+#skill-nav {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+#skill-nav a {
+    padding: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#skill-nav a:hover  {
+    color: grey;
+}
+#skill-nav a:active {
+    color: "red"
+}
+#skillbar {
+    width: 100%;
+    padding: 10px;
+    color:"white";
+    background-color: red;
+    text-align: center;
+}
+#form-div {
+    background-color: rgba(25, 216, 143, 0.753);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+#form-div form {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 10px 10px 8px #888888;
+}
+#form-div form input{
+    color: "green";
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+#form-nav {
+    margin: 20px 0px;
+}
+#form-nav a{
+    margin: 0px 10px;
+    background-color: white;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}

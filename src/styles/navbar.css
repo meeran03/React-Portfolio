@@ -1,0 +1,18 @@
+.navbar {
+    position: fixed;
+    margin-left: 60%;
+    margin-top:5%;
+    z-index: 1000;
+    padding: 20px;
+    transition: 0.3s
+}
+.navbar a {
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: large;
+    color: grey
+}
+.navbar a:hover {
+    color: black
+}
+
